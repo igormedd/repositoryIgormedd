@@ -1,0 +1,132 @@
+body {
+    background-color: brown;
+    color: black;
+}
+p{
+    color: purple;
+}
+li{
+    color: white;
+}
+.one{
+    color: forestgreen;
+}
+#id1{
+    color: green;
+    text-align: center;
+    
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 100px;
+}
+
+div {
+    border: 2px solid wheat;
+    box-sizing: border-box;
+
+}
+
+
+.header {
+    text-align: center;
+    background-image: url(../img/img4.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+    a {
+        color: black;
+    }
+    a:hover {
+        color: white;
+    }
+    a:active {
+        color: yellowgreen;
+    }
+    a:visited {
+        color: gainsboro;
+    }
+
+    .nav li a {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none; 
+              }
+        
+        .nav li a:hover {
+            color: white;
+            background-color: green;
+            text-decoration: none;
+            
+         }
+        
+
+    
+    .nav li  {
+        display: inline-block;
+    }
+
+    .nav {
+        text-align: center;
+    }
+
+.warper {
+    width: 300px;
+    height: 300px;
+}
+
+.aside {
+    
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+}
+.content {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    
+}
+.r-aside {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+}
+.footer {
+    clear: both;
+}
+
+.outside {
+    display: flex ;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#id2 {
+    text-align: center;
+    color: black;
+}
+
+.home {
+    display: flex ;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
